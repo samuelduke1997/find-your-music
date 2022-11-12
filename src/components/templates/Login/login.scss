@@ -1,0 +1,31 @@
+.fym_template_login {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+
+  &--formulary {
+    max-width: 30vw;
+    width: 100%;
+    margin: auto;
+    form {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid white;
+      border-radius: 20px;
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      input {
+        outline: none;
+      }
+      button {
+        background-color: yellow;
+        border: unset;
+        &:hover {
+          background: green;
+        }
+      }
+    }
+  }
+}
